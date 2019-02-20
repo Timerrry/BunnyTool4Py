@@ -1,0 +1,8 @@
+{
+  "name": "default",
+  "version": "0.0.1",
+  "author": "bunnyzoo.com",
+  "blockly": [
+    "blockly/extensions.js"
+  ]
+}

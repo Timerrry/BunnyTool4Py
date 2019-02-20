@@ -1,0 +1,73 @@
+.status-bar {
+    height: 24px;
+    display: flex;
+    user-select: none;
+    color: white;
+    cursor: default;
+    font-size: 12px;
+    line-height: 24px;
+    background-color: #007acc;
+}
+
+.placeholder {
+    flex: 1;
+}
+
+.message {
+    margin-left: 10px;
+    user-select: none;
+    font-size: 12px;
+}
+
+.time {
+    margin-left: 8px;
+    user-select: none;
+    font-size: 12px;
+}
+
+.boards {
+    cursor: pointer;
+    background-color: #7bd200;
+    border-radius: 10px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    width: 150px;
+    padding-left: 10px;
+    padding-right: 10px;
+    justify-content: center;
+}
+
+.ports {
+    cursor: pointer;
+    background-color: #fd7765;
+    border-radius: 10px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    width: 120px;
+    padding-left: 10px;
+    padding-right: 10px;
+    justify-content: center;
+}
+
+.help {
+    cursor: pointer;
+    display: block;
+    padding-left: 10px;
+    padding-right: 10px;
+    user-select: none;
+    transition: background-color 100ms;
+
+    &:hover {
+        background-color: rgba(255, 255, 255, 0.1);
+    }
+}
+
+.menu {
+    border-radius: 0;
+}
+
+.menu-item {
+    text-align: center;
+}

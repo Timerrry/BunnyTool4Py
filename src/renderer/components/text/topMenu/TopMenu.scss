@@ -1,0 +1,64 @@
+.wrap {
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2)
+}
+
+.top {
+    display: flex;
+    height: 30px;
+    color: white;
+    position: relative;
+    background-color: #333337;
+}
+
+.item {
+    color: #aaa;
+    font-size: 12px;
+    width: 60px;
+    min-width: 60px;
+    text-align: center;
+    cursor: pointer;
+    height: 30px;
+    line-height: 30px;
+    user-select: none;
+
+    &:hover {
+        color: white;
+        background-color: #2d2d30;
+    }
+}
+
+.item--collapsed {
+    color: white;
+    background-color: #27272b;
+}
+
+$menu-height: 60px;
+
+.menu {
+  height: $menu-height;
+  background-color: #27272b;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.menu-enter {
+	opacity: 0.01;
+	height: 0;
+}
+
+.menu-enter-active {
+	opacity: 1;
+	height: $menu-height;
+	transition: all 200ms cubic-bezier(0.1, 0.9, 0.24, 1);
+}
+
+.menu-exit {
+  opacity: 1;
+	height: $menu-height;
+}
+
+.menu-exit-active {
+    opacity: 0.01;
+	height: 0;
+    transition: all 200ms cubic-bezier(0.1, 0.9, 0.24, 1);
+}

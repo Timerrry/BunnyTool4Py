@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="图层_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 150 150" style="enable-background:new 0 0 150 150;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#7A7E84;}
+	.st1{fill:#CCDBE2;}
+	.st2{opacity:0.25;fill:#E9EDF4;enable-background:new    ;}
+	.st3{fill:#96A3B2;}
+	.st4{opacity:0.76;fill:#FFFFFF;enable-background:new    ;}
+	.st5{opacity:0.8;fill:#FFFFFF;enable-background:new    ;}
+	.st6{fill:#FFFFFF;}
+</style>
+<title>led</title>
+<desc>Created with Sketch.</desc>
+<g id="Page-1">
+	<g id="led">
+		<rect id="Rectangle-path" x="62.4" y="83.1" class="st0" width="6.7" height="45"/>
+		<path id="Shape" class="st0" d="M91.4,113.8c0-3.7-3.3-6.6-6.5-9.3c-1.2-1.2-3.7-3.1-3.7-4.5V82.9h-6.7V101c0,3.3,2.9,5.8,6.1,8.6
+			c1.4,1.2,4.1,3.9,4.1,5.6c0,0.6,0,13.2,0,13.2h6.7V113.8z"/>
+		<path id="path16" class="st1" d="M95.7,63.2V44.7c0-12.1-9.8-22-21.8-22S52,32.5,52,44.7v42.6c4.5,5.1,12.6,8.6,21.8,8.6
+			c14.3,0,25.9-8.2,25.9-18.3v-4.7C99.6,69.3,98.1,66,95.7,63.2z"/>
+		<ellipse id="ellipse24" class="st2" cx="73.7" cy="72.8" rx="21.8" ry="15.4"/>
+		<polygon id="polygon28" class="st3" points="58.6,52.9 58.6,72.8 61.6,72.8 61.6,63.6 70.4,63.6 82.8,50.2 62.4,50.2 		"/>
+		<polygon id="polygon30" class="st3" points="85.1,49.4 86.5,50.8 74.7,63.6 86.1,63.6 86.1,72.8 88.8,72.8 88.8,49.4 		"/>
+		<path id="path34" class="st4" d="M83.9,34.4l4.5-0.8c-2.7-3.5-6.5-6.2-11-7l0.8,3.3C80.6,30.9,82.6,32.3,83.9,34.4z"/>
+		<path id="path36" class="st5" d="M54.3,84.8v4.7c2,1.6,4.5,3.1,7.1,4.1v-4.7C58.6,87.8,56.1,86.4,54.3,84.8z"/>
+		<path id="path38" class="st6" d="M86.1,85.8c-0.8,0.4-1.6,0.6-2.4,1c-0.2,0-0.4,0.2-0.6,0.2c-1.8,0.6-3.7,1-5.5,1.2
+			c-0.2,0-0.4,0-0.6,0c-1,0-2,0.2-3.1,0.2c-0.4,0-1,0-1.4,0c-3.7-0.2-7.1-1-10.2-2.3V60.1v-15c0-4.5,2.7-8.4,6.3-10.5v-0.2l-3.9-4.7
+			c-5.1,3.1-8.6,8.8-8.6,15.2v37c-0.2-0.2-1-1-1.4-1.6l-1,2.1c4.3,4.5,11.8,7.6,20.2,7.6c5.1,0,10-1.2,13.9-3.1L86.1,85.8L86.1,85.8
+			z"/>
+	</g>
+</g>
+</svg>

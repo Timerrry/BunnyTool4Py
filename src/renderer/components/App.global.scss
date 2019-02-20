@@ -1,0 +1,80 @@
+* {
+  -webkit-margin-before: 0px;
+  -webkit-margin-after: 0px;
+  -webkit-padding-start: 0px;
+  outline: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+html {
+  overflow: hidden;
+  height: 100%;
+}
+
+body {
+  font-family: 'Microsoft YaHei';
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  cursor: default;
+}
+
+li {
+  list-style: outside none none;
+}
+
+code,
+pre {
+  font-family: monospace, monospace;
+}
+
+input {
+  outline: 0;
+}
+
+a,
+a:hover,
+a:focus,
+a:visited {
+  text-decoration: none;
+  outline: none;
+}
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+textarea {
+  resize: none;
+}
+
+.timerry-icon {
+  width: 1em; height: 1em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+}
+
+.ant-btn-clicked:after {
+  animation: none;
+}
+
+.ant-modal-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 900 !important;
+
+  .ant-modal {
+    padding-bottom: 0;
+    top: 0;
+  }
+}
+
+.ant-modal-mask {
+  z-index: 900 !important;
+}

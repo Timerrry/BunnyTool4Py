@@ -1,0 +1,16 @@
+[
+	{
+		"label": "ESP32",
+		"name": "ESP32",
+		"type": "esp32",
+		"productId": "ea60",
+		"vendorId": "10c4"
+	},
+	{
+		"label": "Micro:bit",
+		"name": "Micro:bit",
+		"type": "microbit",
+		"productId": "0204",
+		"vendorId": "0d28"
+	}
+]

@@ -1,0 +1,16 @@
+{
+  "id": "f9vv0x",
+  "label": "Arduino Mega 2560",
+  "fullname": "Arduino/Genuino Mega or Mega 2560",
+  "name": "ArduinoMega2560",
+  "type": "mega",
+  "img": "ArduinoMega2560.svg",
+  "build": {
+    "fqbn": "arduino:avr:mega:cpu=atmega2560"
+  },
+  "upload": {
+    "programer": "wiring",
+    "mcu": "atmega2560"
+  },
+  "src": "ArduinoMega2560.js"
+}

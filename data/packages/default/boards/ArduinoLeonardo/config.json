@@ -1,0 +1,24 @@
+{
+  "id": "ntd5IF",
+  "label": "Arduino Leonardo",
+  "fullname": "Arduino Leonardo",
+  "name": "ArduinoLeonardo",
+  "type": "leonardo",
+  "img": "ArduinoLeonardo.svg",
+  "build": {
+    "fqbn": "arduino:avr:leonardo",
+    "prefs": {
+      "runtime.tools.arduinoOTA.path": "\"ARDUINO_PATH/hardware/tools/avr\""
+    }
+  },
+  "upload": {
+    "mcu": "atmega32u4",
+    "baudrate": "57600",
+    "programer": "avr109",
+    "reset": {
+      "baudrate": 1200,
+      "wait": true
+    }
+  },
+  "src": "ArduinoLeonardo.js"
+}

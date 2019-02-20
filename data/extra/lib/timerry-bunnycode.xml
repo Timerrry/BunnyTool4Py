@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mime-info xmlns="http://www.freedesktop.org/standards/shared-mime-info">
+    <mime-type type="text/x-bunnycode">
+        <comment>BunnyCode source code</comment>
+	    <comment xml:lang="zh_CN">BunnyCode 源代码</comment>
+	    <comment xml:lang="zh_TW">BunnyCode 源代碼</comment>
+        <sub-class-of type="text/x-c++src"/>
+        <glob pattern="*.bc"/>
+    </mime-type>
+</mime-info>

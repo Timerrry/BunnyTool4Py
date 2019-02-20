@@ -1,0 +1,22 @@
+{
+  "private": true,
+  "main": "./main/index.js",
+  "name": "BunnyTool",
+  "productName": "BunnyTool",
+  "branch": "beta",
+  "version": "0.1.5",
+  "buildNumber": 84,
+  "description": "Timerry BunnyTool Education Arduino MicroPython",
+  "companyName": "Timerry",
+  "author": {
+    "name": "Timerry",
+    "email": "support@timerry.cc"
+  },
+  "copyright": "©2018 Timerry",
+  "homepage": "http://www.timerry.cc",
+  "dependencies": {
+    "7zip-bin": "^4.0.2",
+    "serialport": "6.2.2",
+    "usb-detection": "^3.2.0"
+  }
+}

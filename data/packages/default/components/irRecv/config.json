@@ -1,0 +1,109 @@
+{
+  "id": "0UD66Q",
+  "key": "irRecv",
+  "name": "红外接收",
+  "tags": [
+    "红外接收",
+    "红外线"
+  ],
+  "category": "传感模块",
+  "desc": "内置接收管将红外发射管发射出来的光信号转换为微弱的电信号。",
+  "analogImg": "irRecv.svg",
+  "physicalImg": "irRecv.png",
+  "properties": [
+    {
+      "name": "pin",
+      "label": "输出引脚",
+      "type": "select",
+      "options": [
+        {
+          "label": "0",
+          "value": "0"
+        },
+        {
+          "label": "1",
+          "value": "1"
+        },
+        {
+          "label": "2",
+          "value": "2"
+        },
+        {
+          "label": "3~",
+          "value": "3"
+        },
+        {
+          "label": "4",
+          "value": "4"
+        },
+        {
+          "label": "5~",
+          "value": "5"
+        },
+        {
+          "label": "6~",
+          "value": "6"
+        },
+        {
+          "label": "7",
+          "value": "7"
+        },
+        {
+          "label": "8",
+          "value": "8"
+        },
+        {
+          "label": "9~",
+          "value": "9"
+        },
+        {
+          "label": "10~",
+          "value": "10"
+        },
+        {
+          "label": "11~",
+          "value": "11"
+        },
+        {
+          "label": "12",
+          "value": "12"
+        },
+        {
+          "label": "13",
+          "value": "13"
+        },
+        {
+          "label": "A0",
+          "value": "A0"
+        },
+        {
+          "label": "A1",
+          "value": "A1"
+        },
+        {
+          "label": "A2",
+          "value": "A2"
+        },
+        {
+          "label": "A3",
+          "value": "A3"
+        },
+        {
+          "label": "A4",
+          "value": "A4"
+        },
+        {
+          "label": "A5",
+          "value": "A5"
+        }
+      ],
+      "defaultValue": "0"
+    }
+  ],
+  "src": "irRecv.js",
+  "blocks": [
+    "ext_irRecv_key_value",
+    "ext_irRecv_wait",
+    "ext_irRecv_status"
+  ]
+}

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="图层_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 150 150" style="enable-background:new 0 0 150 150;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#Shape_3_);}
+	.st1{fill:url(#Rectangle-path_1_);}
+	.st2{fill:url(#Shape_4_);}
+	.st3{fill:url(#Shape_5_);}
+	.st4{fill:url(#Oval_2_);}
+	.st5{fill:url(#Oval_3_);}
+</style>
+<title>button</title>
+<desc>Created with Sketch.</desc>
+<g id="Page-1">
+	<g id="button">
+		
+			<linearGradient id="Shape_3_" gradientUnits="userSpaceOnUse" x1="-23.5591" y1="175.4722" x2="-23.0097" y2="173.3471" gradientTransform="matrix(114 0 0 -30 2732 5332)">
+			<stop  offset="0" style="stop-color:#574453"/>
+			<stop  offset="1" style="stop-color:#414568"/>
+		</linearGradient>
+		<polygon id="Shape" class="st0" points="134,106 20,106 38.4,76 118,76 		"/>
+		
+			<linearGradient id="Rectangle-path_1_" gradientUnits="userSpaceOnUse" x1="-23.7895" y1="172.5" x2="-22.7895" y2="172.5" gradientTransform="matrix(114 0 0 -8 2732 1489)">
+			<stop  offset="0" style="stop-color:#272745"/>
+			<stop  offset="1" style="stop-color:#281F40"/>
+		</linearGradient>
+		<rect id="Rectangle-path" x="20" y="105" class="st1" width="114" height="8"/>
+		
+			<linearGradient id="Shape_4_" gradientUnits="userSpaceOnUse" x1="-23.0789" y1="174.0077" x2="-23.0789" y2="173.5913" gradientTransform="matrix(57 0 0 -17 1392 3046)">
+			<stop  offset="0" style="stop-color:#B8A678"/>
+			<stop  offset="1" style="stop-color:#EFCB6D"/>
+		</linearGradient>
+		<path id="Shape_1_" class="st2" d="M48,78v10.3c0,4.2,12.7,6.7,28.5,6.7s28.5-2.4,28.5-6.7V78c0,0-8.9,4-29.1,4S48,78,48,78z"/>
+		
+			<linearGradient id="Shape_5_" gradientUnits="userSpaceOnUse" x1="-23.2363" y1="175.1557" x2="-23.2363" y2="174.5288" gradientTransform="matrix(91 0 0 -51 2192 8991)">
+			<stop  offset="0" style="stop-color:#006AB7"/>
+			<stop  offset="1" style="stop-color:#4051A3"/>
+		</linearGradient>
+		<path id="Shape_2_" class="st3" d="M123,48.3c0-3.1-6.1-8.1-10.2-9.3H41c-5.9,1.9-9,6.2-9,9.3v28c0,0.2,0.2,0.6,0.2,0.8
+			c0,0.2-0.2,0.6-0.2,0.8c0,6.6,20.4,12,45.4,12s45.4-5.4,45.4-12c0-0.2,0-0.6-0.2-0.8c0-0.2,0.2-0.6,0.2-0.8v-28H123z"/>
+		
+			<linearGradient id="Oval_2_" gradientUnits="userSpaceOnUse" x1="-23.478" y1="175.4296" x2="-22.9617" y2="173.4751" gradientTransform="matrix(86 0 0 -23 2073 4057)">
+			<stop  offset="0" style="stop-color:#00A3CF"/>
+			<stop  offset="0.9946" style="stop-color:#0063E2"/>
+		</linearGradient>
+		<ellipse id="Oval" class="st4" cx="76" cy="44.5" rx="43" ry="11.5"/>
+		
+			<linearGradient id="Oval_3_" gradientUnits="userSpaceOnUse" x1="-23.2108" y1="174.8583" x2="-23.2108" y2="173.8563" gradientTransform="matrix(83 0 0 -21 2004 3705)">
+			<stop  offset="0" style="stop-color:#6D90CF"/>
+			<stop  offset="1" style="stop-color:#1084CF"/>
+		</linearGradient>
+		<ellipse id="Oval_1_" class="st5" cx="77.5" cy="43.5" rx="41.5" ry="10.5"/>
+	</g>
+</g>
+</svg>

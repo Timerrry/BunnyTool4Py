@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>BunnyTool</title>
+  <script type="text/javascript" src="./bridge.js"></script>
+  <script type="text/javascript" src="../../dll/renderer.dev.dll.js" defer></script>
+  <script type="text/javascript">
+    document.write(`<script type="text/javascript" src="http://localhost:${process.env.PORT || 1212}/index.js" defer><\/script>`);
+  </script>
+</head>
+
+<body>
+  <div id="app"></div>
+</body>
+
+</html>

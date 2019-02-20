@@ -1,0 +1,164 @@
+.wrap {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+
+  .top {
+    background-image:linear-gradient(-180deg, #fdfbfb 2%, #ebedee 99%);
+  }
+
+  .content {
+    flex: 1;
+    display: flex;
+
+    .left {
+      width: 230px;
+      display: flex;
+      flex-direction: column;
+      flex-shrink: 0;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .divider {
+      width: 2px;
+      flex-shrink: 0;
+      background-color: #c1c1c1;
+    }
+
+    .center {
+      flex: 1;
+      overflow: hidden;
+      position: relative;
+      display: flex;
+    }
+
+    .board {
+      display: block;
+    }
+
+    .exit {
+      display: none;
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      width: 24px;
+      height: 24px;
+      cursor: pointer;
+
+      &:hover {
+        & > i {
+          color: #b7b7b7;
+        }
+      }
+
+      & > i {
+        color: #ccc;
+        font-size: 24px;
+        line-height: 24px;
+      }
+    }
+
+    .code {
+      display: none;
+      position: absolute;
+      top: 60px;
+      right: 15px;
+      width: 30px;
+      height: 30px;
+      cursor: pointer;
+      border-radius: 50%;
+      border: 1.5px solid #ccc;
+      justify-content: center;
+      align-items: center;
+
+      &:hover {
+        & > i {
+          color: #b7b7b7;
+        }
+      }
+
+      & > i {
+        color: #ccc;
+        font-size: 20px;
+        line-height: 20px;
+      }
+    }
+
+    .right {
+      background-color: #f4f4f4;
+      position: relative;
+      overflow: hidden;
+      display: none;
+
+      &.right-active {
+        display: flex;
+      }
+
+      .detail {
+        display: flex;
+      }
+
+      .code-view {
+        display: flex;
+      }
+
+      .help {
+        height: 30px;
+        position: absolute;
+        bottom: 15px;
+        right: 15px;
+      }
+    }
+  }
+
+  &.fullscreen {
+    .top {
+      display: none;
+    }
+
+    .content {
+      .left {
+        display: none;
+      }
+
+      .divider {
+        display: none;
+      }
+
+      .board {
+        display: none;
+      }
+
+      .exit {
+        display: block;
+      }
+
+      .code {
+        display: flex;
+      }
+
+      .right {
+        .detail {
+          display: none;
+        }
+
+        .help {
+          display: none;
+        }
+      }
+    }
+
+    .float {
+      display: none;
+    }
+  }
+}

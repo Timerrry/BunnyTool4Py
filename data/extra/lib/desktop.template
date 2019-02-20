@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Application
+Name=BunnyCode
+GenericName=BunnyCode
+Comment=Open-source electronics prototyping platform
+Exec=<BINARY_LOCATION>
+Icon=<ICON_NAME>
+Terminal=false
+Categories=Development;IDE;Electronics;
+MimeType=text/x-bunnycode;
+Keywords=embedded electronics;electronics;avr;microcontroller;
+StartupWMClass=processing-app-Base

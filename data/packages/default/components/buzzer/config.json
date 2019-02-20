@@ -1,0 +1,125 @@
+{
+  "id": "Zwsb0C",
+  "key": "buzzer",
+  "name": "蜂鸣器",
+  "tags": [
+    "蜂鸣器",
+    "报警器"
+  ],
+  "category": "执行模块",
+  "desc": "能够将电转化为声音，用于报警、制作小音乐。",
+  "analogImg": "buzzer.svg",
+  "physicalImg": "buzzer.png",
+  "properties": [
+    {
+      "name": "active",
+      "label": "结构",
+      "type": "select",
+      "options": [
+        {
+          "label": "无源",
+          "value": "false"
+        },
+        {
+          "label": "有源",
+          "value": "true"
+        }
+      ],
+      "defaultValue": "false"
+    },
+    {
+      "name": "pin",
+      "label": "引脚",
+      "type": "select",
+      "options": [
+        {
+          "label": "0",
+          "value": "0"
+        },
+        {
+          "label": "1",
+          "value": "1"
+        },
+        {
+          "label": "2",
+          "value": "2"
+        },
+        {
+          "label": "3~",
+          "value": "3"
+        },
+        {
+          "label": "4",
+          "value": "4"
+        },
+        {
+          "label": "5~",
+          "value": "5"
+        },
+        {
+          "label": "6~",
+          "value": "6"
+        },
+        {
+          "label": "7",
+          "value": "7"
+        },
+        {
+          "label": "8",
+          "value": "8"
+        },
+        {
+          "label": "9~",
+          "value": "9"
+        },
+        {
+          "label": "10~",
+          "value": "10"
+        },
+        {
+          "label": "11~",
+          "value": "11"
+        },
+        {
+          "label": "12",
+          "value": "12"
+        },
+        {
+          "label": "13",
+          "value": "13"
+        },
+        {
+          "label": "A0",
+          "value": "A0"
+        },
+        {
+          "label": "A1",
+          "value": "A1"
+        },
+        {
+          "label": "A2",
+          "value": "A2"
+        },
+        {
+          "label": "A3",
+          "value": "A3"
+        },
+        {
+          "label": "A4",
+          "value": "A4"
+        },
+        {
+          "label": "A5",
+          "value": "A5"
+        }
+      ],
+      "defaultValue": "0"
+    }
+  ],
+  "src": "buzzer.js",
+  "blocks": [
+    "ext_buzzer_turn",
+    "ext_buzzer_tone_gamut",
+    "ext_buzzer_tone_freq"
+  ]
+}

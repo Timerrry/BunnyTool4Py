@@ -1,0 +1,107 @@
+{
+  "id": "N0GaYS",
+  "key": "infraredSensor",
+  "name": "红外对管",
+  "tags": [
+    "红外线",
+    "开关"
+  ],
+  "category": "传感模块",
+  "desc": "红外对管是红外线发射管与光敏接收管，或者红外线接收管，或者红外线接收头配合在一起使用时候的总称。",
+  "analogImg": "infraredSensor.svg",
+  "physicalImg": "infraredSensor.png",
+  "properties": [
+    {
+      "name": "pin",
+      "label": "引脚",
+      "type": "select",
+      "options": [
+        {
+          "label": "0",
+          "value": "0"
+        },
+        {
+          "label": "1",
+          "value": "1"
+        },
+        {
+          "label": "2",
+          "value": "2"
+        },
+        {
+          "label": "3~",
+          "value": "3"
+        },
+        {
+          "label": "4",
+          "value": "4"
+        },
+        {
+          "label": "5~",
+          "value": "5"
+        },
+        {
+          "label": "6~",
+          "value": "6"
+        },
+        {
+          "label": "7",
+          "value": "7"
+        },
+        {
+          "label": "8",
+          "value": "8"
+        },
+        {
+          "label": "9~",
+          "value": "9"
+        },
+        {
+          "label": "10~",
+          "value": "10"
+        },
+        {
+          "label": "11~",
+          "value": "11"
+        },
+        {
+          "label": "12",
+          "value": "12"
+        },
+        {
+          "label": "13",
+          "value": "13"
+        },
+        {
+          "label": "A0",
+          "value": "A0"
+        },
+        {
+          "label": "A1",
+          "value": "A1"
+        },
+        {
+          "label": "A2",
+          "value": "A2"
+        },
+        {
+          "label": "A3",
+          "value": "A3"
+        },
+        {
+          "label": "A4",
+          "value": "A4"
+        },
+        {
+          "label": "A5",
+          "value": "A5"
+        }
+      ],
+      "defaultValue": "0"
+    }
+  ],
+  "src": "infraredSensor.js",
+  "blocks": [
+    "ext_infraredSensor_status"
+  ]
+}

@@ -1,0 +1,55 @@
+$width: 400px;
+
+:export {
+	width: $width;
+}
+
+.container-wrap {
+  display: none;
+  max-width: 600px;
+	min-width: $width;
+
+  &.container-wrap-active {
+    display: block;
+  }
+}
+
+.container {
+  height: 100%;
+  flex-direction: column;
+  display: flex;
+
+  .title {
+    height: 30px;
+    line-height: 30px;
+    color: rgba(79,79,79,0.85);
+    font-size: 12px;
+    background-color: #dde3e5;
+    flex-shrink: 0;
+
+    .tab-title {
+      cursor: pointer;
+      display: inline-block;
+      width: 80px;
+      text-align: center;
+      margin-right: 2px;
+
+      &:last-of-type {
+        margin-right: 0;
+      }
+
+      &.tab-title-active {
+        cursor: default;
+        background: rgba(186, 204, 217, 0.8);
+      }
+
+      &:hover {
+        background: rgba(186, 204, 217, 0.8);
+      }
+    }
+  }
+
+  .content {
+    flex: 1;
+  }
+}

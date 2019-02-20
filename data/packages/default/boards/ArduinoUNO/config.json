@@ -1,0 +1,15 @@
+{
+  "id": "Zn8GhY",
+  "label": "Arduino UNO",
+  "fullname": "Arduino UNO",
+  "name": "ArduinoUNO",
+  "type": "uno",
+  "img": "ArduinoUNO.svg",
+  "build": {
+    "fqbn": "arduino:avr:uno:cpu=atmega328p"
+  },
+  "upload": {
+    "mcu": "atmega328p"
+  },
+  "src": "ArduinoUNO.js"
+}

@@ -1,0 +1,122 @@
+{
+  "id": "tvPPYB",
+  "key": "relay",
+  "name": "继电器",
+  "tags": [
+    "继电器"
+  ],
+  "category": "执行模块",
+  "desc": "一种电控制器件，起到自动调节、安全保护、转换电路等作用。",
+  "analogImg": "relay.svg",
+  "physicalImg": "relay.png",
+  "properties": [
+    {
+      "name": "triggerMode",
+      "label": "触发方式",
+      "type": "select",
+      "options": [
+        {
+          "label": "高电平",
+          "value": "HIGH"
+        },
+        {
+          "label": "低电平",
+          "value": "LOW"
+        }
+      ],
+      "defaultValue": "HIGH"
+    },
+    {
+      "name": "pin",
+      "label": "引脚",
+      "type": "select",
+      "options": [
+        {
+          "label": "0",
+          "value": "0"
+        },
+        {
+          "label": "1",
+          "value": "1"
+        },
+        {
+          "label": "2",
+          "value": "2"
+        },
+        {
+          "label": "3~",
+          "value": "3"
+        },
+        {
+          "label": "4",
+          "value": "4"
+        },
+        {
+          "label": "5~",
+          "value": "5"
+        },
+        {
+          "label": "6~",
+          "value": "6"
+        },
+        {
+          "label": "7",
+          "value": "7"
+        },
+        {
+          "label": "8",
+          "value": "8"
+        },
+        {
+          "label": "9~",
+          "value": "9"
+        },
+        {
+          "label": "10~",
+          "value": "10"
+        },
+        {
+          "label": "11~",
+          "value": "11"
+        },
+        {
+          "label": "12",
+          "value": "12"
+        },
+        {
+          "label": "13",
+          "value": "13"
+        },
+        {
+          "label": "A0",
+          "value": "A0"
+        },
+        {
+          "label": "A1",
+          "value": "A1"
+        },
+        {
+          "label": "A2",
+          "value": "A2"
+        },
+        {
+          "label": "A3",
+          "value": "A3"
+        },
+        {
+          "label": "A4",
+          "value": "A4"
+        },
+        {
+          "label": "A5",
+          "value": "A5"
+        }
+      ],
+      "defaultValue": "0"
+    }
+  ],
+  "src": "relay.js",
+  "blocks": [
+    "ext_relay_set"
+  ]
+}

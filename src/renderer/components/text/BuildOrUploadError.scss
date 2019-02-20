@@ -1,0 +1,59 @@
+.container {
+  width: 600px;
+
+  :global(.ant-popover-inner-content) {
+    padding: 0;
+  }
+}
+
+.title-wrap {
+  display: flex;
+  align-items: center;
+}
+
+.title {
+  cursor: default;
+  user-select: none;
+}
+
+.placeholder {
+  flex: 1;
+}
+
+.error {
+  height: 300px;
+  width: 100%;
+  padding: 8px 12px;
+  white-space: pre-wrap;
+  overflow-x: hidden;
+}
+
+.copy-wrap {
+  text-align: right;
+  padding: 6px 18px;
+  border-top: 1px solid #ccc;
+}
+
+.copy {
+  font-size: 13px;
+}
+
+.expand {
+  font-size: 12px;
+  line-height: 24px;
+  height: 24px;
+  background-color: transparent;
+  border: none;
+  color: white;
+  border-radius: 0;
+  padding-left: 4px;
+  padding-right: 4px;
+  margin-left: 6px;
+  transition: color 100ms, background-color 100ms;
+
+  &:hover,
+  &:focus {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+  }
+}

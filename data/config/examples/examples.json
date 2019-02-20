@@ -1,0 +1,33 @@
+[{
+  "path": "Basic/AnalogReadSerial",
+  "name": "串口读取模拟值",
+  "category": "基础"
+}, {
+  "path": "Basic/Blink",
+  "name": "闪烁LED",
+  "category": "基础"
+}, {
+  "path": "Digital/Button",
+  "name": "按键",
+  "category": "数字量"
+}, {
+  "path": "Digital/Debounce",
+  "name": "按钮消抖",
+  "category": "数字量"
+}, {
+  "path": "Analog/AnalogInput",
+  "name": "模拟值输入",
+  "category": "模拟值"
+}, {
+  "path": "Communication/SerialCallResponse",
+  "name": "串口自发自收",
+  "category": "通信"
+}, {
+  "path": "Sensors/Ping",
+  "name": "超声波测距",
+  "category": "传感"
+}, {
+  "path": "Strings/StringLength",
+  "name": "字符串长度",
+  "category": "字符串"
+}]

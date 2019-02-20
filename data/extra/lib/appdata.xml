@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- See https://www.freedesktop.org/software/appstream/docs/chap-Quickstart.html -->
+<component type="desktop-application">
+  <id>cc.timerry.bunnycode.desktop</id>
+  <metadata_license>CC-BY-SA-3.0</metadata_license>
+  <developer_name>TIMERRY</developer_name>
+
+  <name>BunnyCode</name>
+  <summary>Open-source electronics prototyping platform</summary>
+
+  <description>
+    <p>
+       JUST FUN.
+    </p>
+  </description>
+
+  <url type="homepage">http://www.bunnycode.com/</url>
+</component>

@@ -1,0 +1,12 @@
+{
+  "id": "WNLKlv",
+  "label": "Arduino Nano",
+  "fullname": "Arduino Nano",
+  "name": "ArduinoNano",
+  "type": "nano_328",
+  "img": "ArduinoNano.svg",
+  "upload": {
+    "baudrate": "57600"
+  },
+  "src": "ArduinoNano.js"
+}

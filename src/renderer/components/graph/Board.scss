@@ -1,0 +1,110 @@
+.container {
+  position: absolute;
+  top: 1px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  background-image:linear-gradient(-179deg, #ebedee 0%, #e2ebf0 98%);
+  box-shadow:4px 4px 8px 0 rgba(0,0,0,0.50);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  opacity: 0.8;
+
+  .expand-content {
+    display: flex;
+    width: 350px;
+    height: 200px;
+    flex-direction: column;
+
+    .header {
+      display: flex;
+      margin-top: 2px;
+
+      .boards {
+        width: 200px;
+        display: flex;
+
+        :global(.ant-select) {
+          flex: 1;
+          flex-shrink: 0;
+          overflow: hidden;
+        }
+      }
+
+      .fold-wrap {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+
+        .fold {
+          cursor: pointer;
+          width: 20px;
+          height: 20px;
+          margin-right: 10px;
+
+          & > i {
+            font-size: 20px;
+            line-height: 20px;
+          }
+        }
+      }
+    }
+
+    .body {
+      flex: 1;
+      margin-top: 16px;
+      margin-bottom: 24px;
+      display: flex;
+      justify-content: center;
+    }
+  }
+
+  .fold-content {
+    display: flex;
+    height: 30px;
+    width: 220px;
+    align-items: center;
+    padding-left: 8px;
+    padding-right: 8px;
+
+    .icon {
+      width: 24px;
+      height: 24px;
+
+      & > i {
+        font-size: 24px;
+        line-height: 24px;
+      }
+    }
+
+    .current {
+      flex: 1;
+      margin-left: 4px;
+      margin-right: 4px;
+      text-align: center;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      font-size: 15px;
+      color: black;
+    }
+
+    .expand {
+      cursor: pointer;
+      width: 20px;
+      height: 20px;
+
+      & > i {
+        font-size: 20px;
+        line-height: 20px;
+      }
+    }
+  }
+
+  &.expand {
+    opacity: 1;
+  }
+}
+
+.placeholder {
+  flex: 1;
+}

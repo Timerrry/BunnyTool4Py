@@ -1,0 +1,110 @@
+.files {
+
+	background-color: #27272B;
+    color: white;
+    
+    :global {
+        .ant-tree-title {
+            color: white;
+        }
+
+        .anticon {
+            color: white;
+        }
+
+        // .ant-tree-switcher {
+        //   width: 0;
+        //   background: #7bd200;
+        // }
+
+        .treeitem {
+          width: 0;
+        }
+      }
+      
+
+
+}
+
+
+.select {
+  font-size: 12px;
+  margin-right: 20px;
+  min-width: 80px;
+  height: 26px;
+
+
+}
+
+.all {
+  :global {
+    .ant-tree.ant-tree-directory > li span.ant-tree-node-content-wrapper:hover:before, .ant-tree.ant-tree-directory .ant-tree-child-tree > li span.ant-tree-node-content-wrapper:hover:before {
+      // width: 0;
+      background: #1e1e1e;
+    }
+  }
+  min-width: 80px;
+  // height: 26px;
+}
+
+.header {
+	height: 30px;
+	display: flex;
+	align-items: center;
+  background-color: #2d2d30;
+  border-top: 1px solid #646464;
+}
+
+.title {
+	user-select: none;
+	margin-left: 10px;
+	color: #c6c6c6
+}
+
+.connected-port {
+	margin-left: 8px;
+	font-size: 12px;
+}
+
+.close {
+	user-select: none;
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	margin-right: 12px;
+
+	& > i {
+		font-size: 20px;
+    line-height: 20px;
+    color: #c6c6c6;
+	}
+}
+
+.content {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	background-color: #535353;
+	padding: 10px;
+}
+
+.top {
+	display: flex;
+	flex-shrink: 0;
+}
+
+.placeholder {
+	flex: 1;
+}
+
+.containerleft {
+  width: 230px;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+  // margin-right: 20px;
+  // padding-top: 7px;
+  background-color: #27272B;
+}

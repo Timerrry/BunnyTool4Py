@@ -1,0 +1,118 @@
+{
+  "id": "jyBjw",
+  "key": "rgb2",
+  "name": "三色LED（共阳）",
+  "tags": [
+    "LED模块",
+    "三色LED"
+  ],
+  "category": "执行模块",
+  "desc": "三色LED是由红、绿、蓝，三种不同颜色的LED所组成，因此可以发出多种颜色的光。",
+  "analogImg": "rgb2.svg",
+  "physicalImg": "rgb2.png",
+  "properties": [
+    {
+      "name": "pin_r",
+      "label": "引脚",
+      "type": "select",
+      "options": [
+        {
+          "label": "3~",
+          "value": "3"
+        },
+        {
+          "label": "5~",
+          "value": "5"
+        },
+        {
+          "label": "6~",
+          "value": "6"
+        },
+        {
+          "label": "9~",
+          "value": "9"
+        },
+        {
+          "label": "10~",
+          "value": "10"
+        },
+        {
+          "label": "11~",
+          "value": "11"
+        }
+      ],
+      "defaultValue": "9"
+    },
+    {
+      "name": "pin_g",
+      "label": "引脚",
+      "type": "select",
+      "options": [
+        {
+          "label": "3~",
+          "value": "3"
+        },
+        {
+          "label": "5~",
+          "value": "5"
+        },
+        {
+          "label": "6~",
+          "value": "6"
+        },
+        {
+          "label": "9~",
+          "value": "9"
+        },
+        {
+          "label": "10~",
+          "value": "10"
+        },
+        {
+          "label": "11~",
+          "value": "11"
+        }
+      ],
+      "defaultValue": "10"
+    },
+    {
+      "name": "pin_b",
+      "label": "引脚",
+      "type": "select",
+      "options": [
+        {
+          "label": "3~",
+          "value": "3"
+        },
+        {
+          "label": "5~",
+          "value": "5"
+        },
+        {
+          "label": "6~",
+          "value": "6"
+        },
+        {
+          "label": "9~",
+          "value": "9"
+        },
+        {
+          "label": "10~",
+          "value": "10"
+        },
+        {
+          "label": "11~",
+          "value": "11"
+        }
+      ],
+      "defaultValue": "11"
+    }
+  ],
+  "src": "rgb2.js",
+  "blocks": [
+    "ext_rgb2_turn_on",
+    "ext_rgb2_set_redcolor",
+    "ext_rgb2_fade",
+    "ext_rgb2_turn_off"
+  ]
+}

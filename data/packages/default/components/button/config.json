@@ -1,0 +1,124 @@
+{
+  "id": "lTpCU7",
+  "key": "button",
+  "name": "按键开关",
+  "tags": [
+    "按键",
+    "按钮",
+    "开关"
+  ],
+  "category": "传感模块",
+  "desc": "用于手动发出控制信号以控制其他设备。",
+  "analogImg": "button.svg",
+  "physicalImg": "button.png",
+  "properties": [
+    {
+      "name": "triggerMode",
+      "label": "触发方式",
+      "type": "select",
+      "options": [
+        {
+          "label": "高电平",
+          "value": "HIGH"
+        },
+        {
+          "label": "低电平",
+          "value": "LOW"
+        }
+      ],
+      "defaultValue": "HIGH"
+    },
+    {
+      "name": "pin",
+      "label": "引脚",
+      "type": "select",
+      "options": [
+        {
+          "label": "0",
+          "value": "0"
+        },
+        {
+          "label": "1",
+          "value": "1"
+        },
+        {
+          "label": "2",
+          "value": "2"
+        },
+        {
+          "label": "3~",
+          "value": "3"
+        },
+        {
+          "label": "4",
+          "value": "4"
+        },
+        {
+          "label": "5~",
+          "value": "5"
+        },
+        {
+          "label": "6~",
+          "value": "6"
+        },
+        {
+          "label": "7",
+          "value": "7"
+        },
+        {
+          "label": "8",
+          "value": "8"
+        },
+        {
+          "label": "9~",
+          "value": "9"
+        },
+        {
+          "label": "10~",
+          "value": "10"
+        },
+        {
+          "label": "11~",
+          "value": "11"
+        },
+        {
+          "label": "12",
+          "value": "12"
+        },
+        {
+          "label": "13",
+          "value": "13"
+        },
+        {
+          "label": "A0",
+          "value": "A0"
+        },
+        {
+          "label": "A1",
+          "value": "A1"
+        },
+        {
+          "label": "A2",
+          "value": "A2"
+        },
+        {
+          "label": "A3",
+          "value": "A3"
+        },
+        {
+          "label": "A4",
+          "value": "A4"
+        },
+        {
+          "label": "A5",
+          "value": "A5"
+        }
+      ],
+      "defaultValue": "0"
+    }
+  ],
+  "src": "button.js",
+  "blocks": [
+    "ext_button_pressed"
+  ]
+}
