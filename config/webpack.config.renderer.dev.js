@@ -53,12 +53,20 @@ let guiConfig = merge.smart(baseConfig, {
           loader: 'babel-loader',
           options: {
             cacheDirectory: true,
+            presets: ["react", "env"],
             plugins: [
               // Here, we include babel plugins that are only required for the
               // renderer process. The 'transform-*' plugins must be included
               // before react-hot-loader/babel
-              'transform-class-properties',
-              'transform-es2015-classes',
+              "babel-plugin-transform-es2015-arrow-functions",
+              "babel-plugin-add-module-exports",
+              "babel-plugin-dev-expression",
+              // "babel-plugin-import",
+              "babel-plugin-transform-class-properties",
+              "babel-plugin-transform-es2015-classes",
+              "babel-plugin-transform-function-bind",
+              "babel-plugin-transform-object-rest-spread",
+              "babel-plugin-transform-react-remove-prop-types",
               'react-hot-loader/babel'
             ]
           }

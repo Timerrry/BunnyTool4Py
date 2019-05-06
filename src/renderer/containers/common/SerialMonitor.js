@@ -114,8 +114,8 @@ class SerialMonitor extends Component {
       message.warn("请进入调试模式");
       return;
     }
-
-    let data = input + "\r\n"
+    let data = "\x03\x05" + input + "\x04";
+    console.log(data)
     bridge.postMessage("serialPort.write", portId, data)
     .catch(err => {
       console.log(err);
@@ -244,7 +244,7 @@ class SerialMonitor extends Component {
 		console.log(code);
 
 		// 要通过串口发送的数据 Ctrl+C + import os\r\n + f = open(' + file.name + ', 'w')\r\n + f.write(\" + code + \")\r\n + f.close()\r\n
-		let dataSend = "\x03\r\n\x03\r\n" + "import os\r\n" + "fd = open('" + file.name + "', 'w')\r\n" + "f = fd.write(" + code + ")\r\n" + "f.close()\r\n"
+		let dataSend = "\x03\r\n\x03\r\n\x03\n\x03\n\x03\n\x03\n\x03\n\x03\n\x03\n\x03\n" + "import os\r\n" + "fd = open('" + file.name + "', 'w')\r\n" + "f = fd.write(" + code + ")\r\n" + "f.close()\r\n"
 
 		// // 打开串口
 		// bridge.postMessage("serialPort.open", comName, { baudRate: 115200, parser: "raw" })

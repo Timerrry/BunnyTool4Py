@@ -37,19 +37,20 @@ class TopBar extends Component {
 	}
 
 	render() {
-		const { files, curFileIndex, onNewFile, onSaveProject, onRemoveFile, onRenameFile } = this.props;
+		const { files, curFileIndex, onNewFile, onSaveFile, onRemoveFile, onRenameFile, onOpenFile } = this.props;
 
 		return (
 			<TopBarComponent
 				files={files}
 				curFileIndex={curFileIndex}
-				onSaveProject={onSaveProject}
+				onSaveFile={onSaveFile}
 				onUndo={::this._handleUndo}
 				onRedo={::this._handleRedo}
 				onNewFile={onNewFile}
 				onSwitchFile={::this._handleSwitchFile}
 				onRenameFile={onRenameFile}
 				onRemoveFile={onRemoveFile}
+				onOpenFile={onOpenFile}
 			/>
 		);
 	}

@@ -8,7 +8,7 @@ import styles from './StartMenu.scss';
 
 const delay = 0.5;
 
-const StartMenu = ({ active, boardName, boards, comName, ports, buildAndUploadLock, onUploadPython, onSaveProject, onGetFileList, onOpenPythonTerminal, onPortChange, onPortList, onBoardChange, onRunPython }) => {
+const StartMenu = ({ active, boardName, boards, comName, ports, buildAndUploadLock, onUploadPython, onSaveProject, onGetFileList, onOpenPythonTerminal, onPortChange, onPortList, onBoardChange, onUploadRun }) => {
   return (
     <div className={classNames(styles.menu, {[styles.active]: active})}>
       <span className={classNames(styles.btn, {[styles.btnDisable]: buildAndUploadLock})} onClick={() => onGetFileList()}>
@@ -47,6 +47,15 @@ const StartMenu = ({ active, boardName, boards, comName, ports, buildAndUploadLo
           </svg> */}
         </span>
         <span className={styles.btnLabel}>上传</span>
+      </span>
+      <span className={classNames(styles.btn, {[styles.btnDisable]: buildAndUploadLock})} onClick={() => onUploadRun()}>
+        <span className={styles.btnIcon}>
+        <i className={classNames("bunny bunny-upload", styles.btnIcon)}></i>
+            {/* <svg className={classNames("timerry-icon", styles.btnIcon)} aria-hidden="true" >
+            <use xlinkHref="#icon-icon_shangchuan1"></use>
+          </svg> */}
+        </span>
+        <span className={styles.btnLabel}>上传并运行</span>
       </span>
       {/* <span className={styles.btn} onClick={() =>  onRunPython()}>
         <span className={styles.btnIcon}>

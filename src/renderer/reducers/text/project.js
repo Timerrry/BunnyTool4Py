@@ -65,7 +65,9 @@ export default (state = initState, action) => {
       index = currentFile === action.file ? files.length - 1 : files.indexOf(currentFile);
       return {...state, files, index};
     case UPDATE_FILE:
-      files = update(files, {[action.index]: {$merge: {...action.file}}});
+      if (files.length > 0) {
+          files = update(files, {[action.index]: {$merge: {...action.file}}});
+      }
       return {...state, files};
     case SWITCH_FILE:
       index = action.index < files.length ? action.index : -1;

@@ -22,6 +22,15 @@
     return deferred.promise;
   }
 
+  // Waiting for [delay] seconds after postMessage
+  function postMessageDelay(name, delay, ...args) {
+    return new Promise(function (resolve, reject) {
+                let promise = postMessage(name, ...args);
+                setTimeout(resolve, delay);
+                return promise
+            });
+  }
+
   let handlerMap = {};
 
   function listenMessage(name, handler) {
@@ -66,5 +75,6 @@
     listenMessage,
     unlistenMessage,
     unlistenAllMessage,
+    postMessageDelay,
   };
 })();

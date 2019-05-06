@@ -81,7 +81,9 @@ let extraFiles = [
 	// "data/pxt/package.json",
 	// "data/pxt/index.js",
 ]
-
+let extraResources = [
+	"data/driver/**",
+]
 let winSign
 if(platform === "win" && args.sign) {
 	winSign = {
@@ -96,6 +98,7 @@ builder.build({
 	targets,
 	config: {
 		extraFiles,
+		extraResources,
 		win: winSign,
 		afterPack: context => {
 			nconf.clear('buildInfo')

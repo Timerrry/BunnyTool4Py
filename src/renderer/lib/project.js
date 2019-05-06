@@ -4,6 +4,7 @@ import path from 'path';
 import { rejectError } from './util';
 
 export const PROJECT_EXT = "bc";
+export const PYTHON_EXT = "py";
 
 export function saveProject(savePath, project, options = "all") {
 	let actions = [];

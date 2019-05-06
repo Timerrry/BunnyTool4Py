@@ -1,0 +1,9 @@
+/node_modules/*
+/dist/*
+yarn-error.log
+*.pyc
+.idea/*
+
+/app/node_modules/*
+!/app/node_modules/usb-detection
+!/app/node_modules/serialport

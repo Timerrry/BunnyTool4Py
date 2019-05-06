@@ -6,6 +6,7 @@ import { connectRouter } from 'connected-react-router';
 
 import App from './App';
 import { configureStore, history } from './store/configureStore';
+import 'antd/dist/antd.css';  // or 'antd/dist/antd.less'
 
 const store = configureStore();
 
