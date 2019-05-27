@@ -559,15 +559,15 @@ class StartMenu extends Component {
 
         // 如果搜到了板子（或者多个符合条件的板子）则进行板子切换，默认用第一个板子
         if (b.length == 0) {
-            message.warn("很遗憾，我们没有串口列表中找到" + boardName + "开发板。")
+            message.warn("很遗憾，我们没有串口列表中找到" + _boardName + "开发板。")
             return false;
         }
 
         if (b.length > 1) {
-            message.info("我们在串口列表中找到了" + b.length + "个" + boardName + "开发板，默认选择第一个。")
+            message.info("我们在串口列表中找到了" + b.length + "个" + _boardName + "开发板，默认选择第一个。")
         }
 
-        message.success("我们在串口列表中找到了" + 1 + "个" + boardName + "开发板，开始自动切换。")
+        message.success("我们在串口列表中找到了" + 1 + "个" + _boardName + "开发板，开始自动切换。")
         this._handleAutoSetBoard(_boardName, b)
     }
 
