@@ -1,10 +1,11 @@
 const TOGGLE = 'text-file-menu/toggle';
 const TOGGLE_FILELIST = 'text-file-menu/togglefilelist';
 const SWITCH_TAB = 'text-file-menu/switch-tab';
+const CLOSE_FILELIST = "text-file-menu/closefilelist";
 
 const initState = {
   visible: false,
-  show: false,
+  show: undefined,
   tab: "recent",
 };
 
@@ -15,9 +16,11 @@ export default (state = initState, action) => {
       return {...state, visible};
     case TOGGLE_FILELIST:
       let show = action.show === undefined ? !state.show : !!action.show;
-      return {...state, show};
+      return {...state, show: action.show};
     case SWITCH_TAB:
       return {...state, tab: action.tab};
+    case CLOSE_FILELIST:
+        return {...state, undefined};
     default:
       return state;
   }
@@ -41,5 +44,13 @@ export function toggleFilelist(show) {
   return {
     type: TOGGLE_FILELIST,
     show,
+  };
+}
+
+export function closeFileList() {
+  let show = undefined;
+   return {
+    type: TOGGLE_FILELIST,
+       show,
   };
 }

@@ -7,6 +7,7 @@
 .file-wrap {
 	margin-right: 3px;
 	transition: all 0.1s;
+	display: flex;
 
 	&:last-of-type {
 		margin-right: 0;
@@ -29,6 +30,7 @@
 	height: 24px;
 	transition: height 0.1s, background-color 0.1s;
 	position: relative;
+	margin-left: 2px;
 
 	&:hover {
 		background-color: #564746;
@@ -71,7 +73,7 @@
 	font-size: 18px;
 	cursor: pointer;
 	display: flex;
-  align-items: center;
+  	align-items: center;
 	justify-content: center;
 	margin-right: 4px;
 
@@ -80,7 +82,7 @@
 		background-color: #564746;
 	}
 
-	&::last-of-type {
+	&:last-of-type {
 		margin-right: 0;
 	}
 }
@@ -92,4 +94,13 @@
 	& > svg {
 		transform: rotate(45deg);
 	}
+}
+
+.remove {
+	color: #323232;
+	width: 32px;
+	margin-right: 4px;
+	padding: 0;
+	display: flex;
+	justify-content: center;
 }
